@@ -288,3 +288,8 @@ footer p{color:var(--gray);margin-bottom:6px}
 .hero.has-photo .trustrow{color:#E6ECF1}
 .hero.has-photo .btn.ghost{border-color:#fff}
 @media(max-width:700px){.pagehead.has-photo{padding:44px 0}}
+
+/* ---------- FOOTER SOCIAL ---------- */
+.footsocial{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:14px}
+.footsocial a{display:inline-block;margin:0;font-weight:600;font-size:13.5px;color:var(--slate);border:1px solid var(--line);border-radius:8px;padding:5px 11px}
+.footsocial a:hover{border-color:var(--citrus);color:var(--citrus-d)}
